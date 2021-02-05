@@ -23,9 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99de834-455b-40c8-ab6c-baf379bd4027" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson2/job_stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DataScapping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataScapping.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson2/vacancy_scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson2/vacancy_scrapper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,45 +170,57 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="542" key="GridCell.Tab.0.bottom" timestamp="1612530963463">
+    <state width="1259" height="170" key="GridCell.Tab.0.bottom" timestamp="1612537413413">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="542" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612530963463" />
-    <state width="1259" height="542" key="GridCell.Tab.0.center" timestamp="1612530963462">
+    <state width="1259" height="170" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612537413413" />
+    <state width="1259" height="170" key="GridCell.Tab.0.center" timestamp="1612537413412">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="542" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1612530963462" />
-    <state width="1259" height="542" key="GridCell.Tab.0.left" timestamp="1612530963461">
+    <state width="1259" height="170" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1612537413412" />
+    <state width="1259" height="170" key="GridCell.Tab.0.left" timestamp="1612537413411">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="542" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1612530963461" />
-    <state width="1259" height="542" key="GridCell.Tab.0.right" timestamp="1612530963462">
+    <state width="1259" height="170" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1612537413411" />
+    <state width="1259" height="170" key="GridCell.Tab.0.right" timestamp="1612537413412">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="542" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1612530963462" />
-    <state width="1259" height="264" key="GridCell.Tab.1.bottom" timestamp="1612519879796">
+    <state width="1259" height="170" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1612537413412" />
+    <state width="1259" height="264" key="GridCell.Tab.1.bottom" timestamp="1612536499889">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612519879796" />
-    <state width="1259" height="264" key="GridCell.Tab.1.center" timestamp="1612519879793">
+    <state width="1259" height="264" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612536499889" />
+    <state width="1259" height="264" key="GridCell.Tab.1.center" timestamp="1612536499887">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1612519879793" />
-    <state width="1259" height="264" key="GridCell.Tab.1.left" timestamp="1612519879792">
+    <state width="1259" height="264" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1612536499887" />
+    <state width="1259" height="264" key="GridCell.Tab.1.left" timestamp="1612536499886">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1612519879792" />
-    <state width="1259" height="264" key="GridCell.Tab.1.right" timestamp="1612519879795">
+    <state width="1259" height="264" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1612536499886" />
+    <state width="1259" height="264" key="GridCell.Tab.1.right" timestamp="1612536499888">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1612519879795" />
+    <state width="1259" height="264" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1612536499888" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1612523314399">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1612523314399" />
-    <state x="314" y="174" width="598" height="490" key="find.popup" timestamp="1612283981131">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state x="314" y="166" width="598" height="548" key="find.popup" timestamp="1612536667531">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="314" y="166" width="598" height="548" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1612536667531" />
     <state x="314" y="174" width="598" height="490" key="find.popup/0.23.1280.726@0.23.1280.726" timestamp="1612283981131" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson2/vacancy_scrapper.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
