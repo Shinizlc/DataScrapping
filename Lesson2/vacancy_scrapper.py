@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup as bs
-import requests as re
+import requests as req
 from pprint import pprint
+import re
 # import pandas as pn
 '''Необходимо собрать информацию о вакансиях на вводимую должность 
 (используем input или через аргументы) с сайтов Superjob и HH. Приложение должно анализировать несколько 
@@ -31,7 +32,7 @@ class WrongStatus(Exception):
         self.text=text
 
 
-with re.get(url,headers=headers) as data:
+with req.get(url,headers=headers) as data:
     try:
         if data.status_code!=200:
             raise WrongStatus
@@ -55,10 +56,27 @@ with re.get(url,headers=headers) as data:
                 vac_data['link']=vacancy_block.get('href')
                 vac_data['website']=website
                 if salary_block is not None:
-                    #не понял как работать с таким форматированием 40\xa0000-60\xa0000 руб
-                    vac_data['salary']=salary_block.text
+                    salary=salary_block.text
+                    salary=re.sub(r'\xa0','',salary)
+                    if re.search(r'^от ([0-9]+)',salary):
+                        vac_data['max_salary'] = None
+                        vac_data['min_salary'] = re.findall(r'^от ([0-9]+)', salary)
+                        vac_data['currency']=re.findall(r'^от [0-9]+ (\w+).',salary)
+                    elif re.search(r'^до ([0-9]+)',salary):
+                        vac_data['max_salary'] = re.findall(r'^до ([0-9]+)',salary)
+                        vac_data['min_salary'] = None
+                        vac_data['currency'] = re.findall(r'^до [0-9]+ (\w+).',salary)
+                    else:
+                        vac_data['max_salary']=re.findall(r'\d+-(\d+)', salary)
+                        vac_data['min_salary']=re.findall(r'(\d+)-\d+', salary)
+                        vac_data['currency'] = re.findall(r'\d+-\d+ (\w+).', salary)
+
+
+
                 else:
-                    continue
+                    vac_data['min_salary'] = None
+                    vac_data['max_salary'] = None
+                    vac_data['currency'] = None
                 list_of_vac.append(vac_data)
         pprint(list_of_vac)
 
