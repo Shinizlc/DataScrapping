@@ -16,9 +16,8 @@ import re
 dataFrame через pandas.'''
 
 
-#pages=int(input('Enter the number of pages:\n'))
+pages=int(input('Enter the number of pages:\n'))
 profession=input('Enter the profession name:\n')
-list_of_pages=['https://spb.hh.ru/search/vacancy?area=2&fromSearchLine=true&st=searchVacancy&text='+profession]
 website='hh.ru'
 url='https://spb.hh.ru/search/vacancy?area=2&fromSearchLine=true&st=searchVacancy&text='+profession
 
@@ -32,43 +31,36 @@ class WrongStatus(Exception):
         self.text=text
 
 
-with req.get(url,headers=headers) as data:
-    try:
-        if data.status_code!=200:
-            raise WrongStatus
-        bsdata=bs(data.text,'html.parser')
-
-#####не разобрался, вроде настроил поиск блоков, где находятся ссылки на страницы правильно,
-#####но почему вытаскивает неправильные ссылки. Что может быть не так?
-        # all_pages=bsdata.find_all('a',{'data-qa':'pager-page'})
-        # for pag in all_pages:
-        #     if int(pag.get('data-page'))<=pages:
-        #         list_of_pages.append('https://spb.hh.ru/'+pag.get('href'))
-        #     else:
-        #         continue
-        # pprint(list_of_pages)
-
-        for tags in bsdata.find_all('div',attrs={'class':'vacancy-serp-item__row vacancy-serp-item__row_header'}):
+class EndScrapping(Exception):
+    def __init__(self,text):
+        self.text=text
+while True:
+    with req.get(url, headers=headers) as data:
+        try:
+            if data.status_code != 200:
+                raise WrongStatus
+            bsdata = bs(data.text, 'html.parser')
+            for tags in bsdata.find_all('div', attrs={'class': 'vacancy-serp-item__row vacancy-serp-item__row_header'}):
                 vac_data = {}
-                vacancy_block=tags.find('a',attrs={'class':'bloko-link HH-LinkModifier'})
-                vac_data['vacancy']=vacancy_block.text
-                salary_block=tags.find('span',attrs={'data-qa':'vacancy-serp__vacancy-compensation'})
-                vac_data['link']=vacancy_block.get('href')
-                vac_data['website']=website
+                vacancy_block = tags.find('a', attrs={'class': 'bloko-link HH-LinkModifier'})
+                vac_data['vacancy'] = vacancy_block.text
+                salary_block = tags.find('span', attrs={'data-qa': 'vacancy-serp__vacancy-compensation'})
+                vac_data['link'] = vacancy_block.get('href')
+                vac_data['website'] = website
                 if salary_block is not None:
-                    salary=salary_block.text
-                    salary=re.sub(r'\xa0','',salary)
-                    if re.search(r'^от ([0-9]+)',salary):
+                    salary = salary_block.text
+                    salary = re.sub(r'\xa0', '', salary)
+                    if re.search(r'^от ([0-9]+)', salary):
                         vac_data['max_salary'] = None
                         vac_data['min_salary'] = re.findall(r'^от ([0-9]+)', salary)
-                        vac_data['currency']=re.findall(r'^от [0-9]+ (\w+).',salary)
-                    elif re.search(r'^до ([0-9]+)',salary):
-                        vac_data['max_salary'] = re.findall(r'^до ([0-9]+)',salary)
+                        vac_data['currency'] = re.findall(r'^от [0-9]+ (\w+).', salary)
+                    elif re.search(r'^до ([0-9]+)', salary):
+                        vac_data['max_salary'] = re.findall(r'^до ([0-9]+)', salary)
                         vac_data['min_salary'] = None
-                        vac_data['currency'] = re.findall(r'^до [0-9]+ (\w+).',salary)
+                        vac_data['currency'] = re.findall(r'^до [0-9]+ (\w+).', salary)
                     else:
-                        vac_data['max_salary']=re.findall(r'\d+-(\d+)', salary)
-                        vac_data['min_salary']=re.findall(r'(\d+)-\d+', salary)
+                        vac_data['max_salary'] = re.findall(r'\d+-(\d+)', salary)
+                        vac_data['min_salary'] = re.findall(r'(\d+)-\d+', salary)
                         vac_data['currency'] = re.findall(r'\d+-\d+ (\w+).', salary)
 
 
@@ -78,9 +70,20 @@ with req.get(url,headers=headers) as data:
                     vac_data['max_salary'] = None
                     vac_data['currency'] = None
                 list_of_vac.append(vac_data)
-        pprint(list_of_vac)
+            #pprint(list_of_vac)
 
 
-    except WrongStatus:
-        pprint("We didn't get data")
+            for pag in bsdata.find_all('a',{'data-qa':'pager-next'}):
+                if int(pag.get('data-page')) < pages:
+                    pprint(int(pag.get('data-page')))
+                    pprint(pages)
+                    url='https://spb.hh.ru'+pag.get('href')
+                    pprint(url)
+                else:
+                    raise EndScrapping('text')
+
+        except WrongStatus:
+            pprint("We didn't get data")
+        except EndScrapping:
+            break
 

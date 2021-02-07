@@ -170,42 +170,42 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="171" key="GridCell.Tab.0.bottom" timestamp="1612636777049">
+    <state width="1259" height="154" key="GridCell.Tab.0.bottom" timestamp="1612699374503">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="171" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612636777049" />
-    <state width="1259" height="171" key="GridCell.Tab.0.center" timestamp="1612636777048">
+    <state width="1259" height="154" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612699374503" />
+    <state width="1259" height="154" key="GridCell.Tab.0.center" timestamp="1612699374501">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="171" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1612636777048" />
-    <state width="1259" height="171" key="GridCell.Tab.0.left" timestamp="1612636777047">
+    <state width="1259" height="154" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1612699374501" />
+    <state width="1259" height="154" key="GridCell.Tab.0.left" timestamp="1612699374500">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="171" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1612636777047" />
-    <state width="1259" height="171" key="GridCell.Tab.0.right" timestamp="1612636777049">
+    <state width="1259" height="154" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1612699374500" />
+    <state width="1259" height="154" key="GridCell.Tab.0.right" timestamp="1612699374502">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="171" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1612636777049" />
-    <state width="1259" height="264" key="GridCell.Tab.1.bottom" timestamp="1612536499889">
+    <state width="1259" height="154" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1612699374502" />
+    <state width="1259" height="264" key="GridCell.Tab.1.bottom" timestamp="1612698497512">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612536499889" />
-    <state width="1259" height="264" key="GridCell.Tab.1.center" timestamp="1612536499887">
+    <state width="1259" height="264" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612698497512" />
+    <state width="1259" height="264" key="GridCell.Tab.1.center" timestamp="1612698497510">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1612536499887" />
-    <state width="1259" height="264" key="GridCell.Tab.1.left" timestamp="1612536499886">
+    <state width="1259" height="264" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1612698497510" />
+    <state width="1259" height="264" key="GridCell.Tab.1.left" timestamp="1612698497510">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1612536499886" />
-    <state width="1259" height="264" key="GridCell.Tab.1.right" timestamp="1612536499888">
+    <state width="1259" height="264" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1612698497510" />
+    <state width="1259" height="264" key="GridCell.Tab.1.right" timestamp="1612698497511">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1612536499888" />
-    <state x="141" y="39" key="SettingsEditor" timestamp="1612523314399">
+    <state width="1259" height="264" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1612698497511" />
+    <state x="141" y="39" key="SettingsEditor" timestamp="1612637462810">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1612523314399" />
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1612637462810" />
     <state x="314" y="166" width="598" height="548" key="find.popup" timestamp="1612536667531">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -217,13 +217,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Lesson2/vacancy_scrapper.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Lesson2/vacancy_scrapper.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="4" />
+          <line>76</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
