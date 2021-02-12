@@ -15,7 +15,7 @@ import requests as req
 from pprint import pprint
 import re
 import pymongo
-client=pymongo.MongoClient('127.0.0.1',27017)
+client=pymongo.MongoClient('127.0.0.1',27019)
 db=client['Vacancies']
 coll_hh=db['Vac_hh']
 
@@ -88,7 +88,7 @@ def vacancy_analyzer():
             except EndScrapping:
                 break
     #####Initial load of the vacancy data
-    # coll_hh.insert_many(list_of_vac)
+    coll_hh.insert_many(list_of_vac)
     return list_of_vac
 
 
@@ -109,5 +109,6 @@ def vacancy_search_by_salary(sal:int,cur:str):
 
 
 if __name__ == '__main__':
+    vacancy_analyzer()
     # add_unique_values(vacancy_analyzer())
-    vacancy_search_by_salary(6000,'руб')
+    #vacancy_search_by_salary(6000,'руб')
