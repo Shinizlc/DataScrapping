@@ -74,6 +74,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="js" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DataScapping" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson2/js.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="restAPI_with_auth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataScapping" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,6 +161,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.vacancy_scrapper" />
+        <item itemvalue="Python.js" />
         <item itemvalue="Python.ssh_testing" />
         <item itemvalue="Python.restAPI_with_auth" />
         <item itemvalue="Python.GitHub" />
@@ -170,38 +192,38 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="154" key="GridCell.Tab.0.bottom" timestamp="1612699374503">
+    <state width="1259" height="154" key="GridCell.Tab.0.bottom" timestamp="1613128368850">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="154" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612699374503" />
-    <state width="1259" height="154" key="GridCell.Tab.0.center" timestamp="1612699374501">
+    <state width="1259" height="154" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1613128368850" />
+    <state width="1259" height="154" key="GridCell.Tab.0.center" timestamp="1613128368849">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="154" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1612699374501" />
-    <state width="1259" height="154" key="GridCell.Tab.0.left" timestamp="1612699374500">
+    <state width="1259" height="154" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1613128368849" />
+    <state width="1259" height="154" key="GridCell.Tab.0.left" timestamp="1613128368848">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="154" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1612699374500" />
-    <state width="1259" height="154" key="GridCell.Tab.0.right" timestamp="1612699374502">
+    <state width="1259" height="154" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1613128368848" />
+    <state width="1259" height="154" key="GridCell.Tab.0.right" timestamp="1613128368850">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="154" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1612699374502" />
-    <state width="1259" height="264" key="GridCell.Tab.1.bottom" timestamp="1612698497512">
+    <state width="1259" height="154" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1613128368850" />
+    <state width="1259" height="264" key="GridCell.Tab.1.bottom" timestamp="1612961912200">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612698497512" />
-    <state width="1259" height="264" key="GridCell.Tab.1.center" timestamp="1612698497510">
+    <state width="1259" height="264" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612961912200" />
+    <state width="1259" height="264" key="GridCell.Tab.1.center" timestamp="1612961912199">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1612698497510" />
-    <state width="1259" height="264" key="GridCell.Tab.1.left" timestamp="1612698497510">
+    <state width="1259" height="264" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1612961912199" />
+    <state width="1259" height="264" key="GridCell.Tab.1.left" timestamp="1612961912199">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1612698497510" />
-    <state width="1259" height="264" key="GridCell.Tab.1.right" timestamp="1612698497511">
+    <state width="1259" height="264" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1612961912199" />
+    <state width="1259" height="264" key="GridCell.Tab.1.right" timestamp="1612961912200">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1612698497511" />
+    <state width="1259" height="264" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1612961912200" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1612637462810">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -211,16 +233,9 @@
     </state>
     <state x="314" y="166" width="598" height="548" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1612536667531" />
     <state x="314" y="174" width="598" height="490" key="find.popup/0.23.1280.726@0.23.1280.726" timestamp="1612283981131" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Lesson2/vacancy_scrapper.py</url>
-          <line>76</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1612955806413">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1612955806413" />
   </component>
 </project>
