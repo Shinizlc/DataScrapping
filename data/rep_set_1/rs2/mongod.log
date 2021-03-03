@@ -1621,3 +1621,4 @@
 {"t":{"$date":"2021-03-03T12:30:22.608+03:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn307","msg":"connection ended","attr":{"remote":"127.0.0.1:65475","connectionCount":19}}
 {"t":{"$date":"2021-03-03T12:31:55.841+03:00"},"s":"I",  "c":"NETWORK",  "id":20113,   "ctx":"LogicalSessionCacheReap","msg":"Successfully connected to host","attr":{"connString":"localhost:27019","numOpenConns":2,"socketTimeoutSecs":0.0}}
 {"t":{"$date":"2021-03-03T12:34:22.567+03:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn306","msg":"connection ended","attr":{"remote":"127.0.0.1:65473","connectionCount":18}}
+{"t":{"$date":"2021-03-03T13:21:36.741+03:00"},"s":"I",  "c":"QUERY",    "id":20529,   "ctx":"clientcursormon","msg":"Cursor timed out","attr":{"cursorId":3961583344373103374,"idleSince":{"$date":"2021-03-03T10:11:33.243Z"}}}
