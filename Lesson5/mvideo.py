@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 import re
-connection=MongoClient('127.0.0.1',27017)
+connection=MongoClient('127.0.0.1',27019)
 db=connection['mvideo']
 coll=db['HITS']
 from pprint import pprint
@@ -14,7 +14,6 @@ driver.get('https://www.mvideo.ru/')
 driver.maximize_window()
 try:
     list_of_data=[]
-   # len_of_data=0
     for i in range(0,3):
         WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR,'.next-btn.c-btn.c-btn_scroll-horizontal.c-btn_icon.i-icon-fl-arrow-right'))).click()  # doesn't resolve the error ElementClickInterceptedException
         sleep(3)
@@ -35,7 +34,7 @@ try:
 
 
     pprint(list_of_data)
-    #coll.insert_many(list_of_data)
+    coll.insert_many(list_of_data)
 except ElementClickInterceptedException:
     sleep(3)
     next_button = driver.find_element_by_css_selector('.next-btn.c-btn.c-btn_scroll-horizontal.c-btn_icon.i-icon-fl-arrow-right')
