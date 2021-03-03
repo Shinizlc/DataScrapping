@@ -24,6 +24,64 @@
   <component name="ChangeListManager">
     <list default="true" id="90431e0f-b695-44a1-a09c-0dd0258789f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson5/mvideo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson5/mvideo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/WiredTiger.turtle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/WiredTigerHS.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/WiredTigerHS.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/_mdb_catalog.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/collection-10--1201535733352185220.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/collection-10--1201535733352185220.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/collection-11--1201535733352185220.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/collection-11--1201535733352185220.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/collection-17--1201535733352185220.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/collection-17--1201535733352185220.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/collection-2--1201535733352185220.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/collection-2--1201535733352185220.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/collection-23--1201535733352185220.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/collection-23--1201535733352185220.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/collection-4--1201535733352185220.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/collection-4--1201535733352185220.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/collection-6--1201535733352185220.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/collection-6--1201535733352185220.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/diagnostic.data/metrics.2021-03-02T15-38-07Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/diagnostic.data/metrics.2021-03-02T15-38-07Z-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/diagnostic.data/metrics.interim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/index-18--1201535733352185220.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/index-18--1201535733352185220.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/index-24--1201535733352185220.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/index-24--1201535733352185220.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/index-25--1201535733352185220.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/index-25--1201535733352185220.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/journal/WiredTigerLog.0000000001" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/journal/WiredTigerLog.0000000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/db/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/db/sizeStorer.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs1/mongod.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs1/mongod.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/WiredTiger.turtle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/WiredTigerHS.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/WiredTigerHS.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/_mdb_catalog.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/collection-10--7898606816002795041.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/collection-10--7898606816002795041.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/collection-16--7898606816002795041.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/collection-16--7898606816002795041.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/collection-2--7898606816002795041.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/collection-2--7898606816002795041.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/collection-23--7898606816002795041.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/collection-23--7898606816002795041.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/collection-29--7898606816002795041.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/collection-29--7898606816002795041.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/collection-4--7898606816002795041.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/collection-4--7898606816002795041.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/collection-6--7898606816002795041.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/collection-6--7898606816002795041.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/diagnostic.data/metrics.2021-03-02T15-38-09Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/diagnostic.data/metrics.2021-03-02T15-38-09Z-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/diagnostic.data/metrics.interim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/index-24--7898606816002795041.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/index-24--7898606816002795041.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/index-30--7898606816002795041.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/index-30--7898606816002795041.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/index-31--7898606816002795041.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/index-31--7898606816002795041.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/journal/WiredTigerLog.0000000001" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/journal/WiredTigerLog.0000000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/db/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/db/sizeStorer.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs2/mongod.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs2/mongod.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/WiredTiger.turtle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/WiredTigerHS.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/WiredTigerHS.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/_mdb_catalog.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/collection-10-5568073539450035074.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/collection-10-5568073539450035074.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/collection-16-5568073539450035074.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/collection-16-5568073539450035074.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/collection-2-5568073539450035074.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/collection-2-5568073539450035074.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/collection-23-5568073539450035074.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/collection-23-5568073539450035074.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/collection-29-5568073539450035074.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/collection-29-5568073539450035074.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/collection-4-5568073539450035074.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/collection-4-5568073539450035074.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/collection-6-5568073539450035074.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/collection-6-5568073539450035074.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/diagnostic.data/metrics.2021-03-02T15-38-10Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/diagnostic.data/metrics.2021-03-02T15-38-10Z-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/diagnostic.data/metrics.interim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/index-24-5568073539450035074.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/index-24-5568073539450035074.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/index-30-5568073539450035074.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/index-30-5568073539450035074.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/index-31-5568073539450035074.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/index-31-5568073539450035074.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/journal/WiredTigerLog.0000000001" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/journal/WiredTigerLog.0000000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/db/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/db/sizeStorer.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rep_set_1/rs3/mongod.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/rep_set_1/rs3/mongod.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +105,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -172,22 +231,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="346" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1614617004867" />
-    <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1614699756461">
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1614702085427">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1614699756461" />
-    <state width="1259" height="212" key="GridCell.Tab.0.center" timestamp="1614699756459">
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1614702085427" />
+    <state width="1259" height="212" key="GridCell.Tab.0.center" timestamp="1614702085425">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1614699756459" />
-    <state width="1259" height="212" key="GridCell.Tab.0.left" timestamp="1614699756458">
+    <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1614702085425" />
+    <state width="1259" height="212" key="GridCell.Tab.0.left" timestamp="1614702085424">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1614699756458" />
-    <state width="1259" height="212" key="GridCell.Tab.0.right" timestamp="1614699756460">
+    <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1614702085424" />
+    <state width="1259" height="212" key="GridCell.Tab.0.right" timestamp="1614702085426">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1614699756460" />
+    <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1614702085426" />
     <state width="1259" height="264" key="GridCell.Tab.1.bottom" timestamp="1614532573812">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
